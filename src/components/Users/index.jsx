@@ -19,7 +19,9 @@ export const Users = ({ items, isLoading }) => {
         </div>
       ) : (
         <ul className="users-list">
-          <User />
+          {
+            items.map(obj => <User key={obj.id} {... obj} />) // {... obj} сокращенно от : first_name={obj.first_name и т.д.}
+          }
         </ul>
       )}
       <button className="send-invite-btn">Отправить приглашение</button>

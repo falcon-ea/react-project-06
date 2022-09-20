@@ -9,6 +9,7 @@ function App() {
 
   const [users, setUsers] = React.useState([]);
   const [isLoading, setLoading] = React.useState(true);
+  const [searchValue, setSearchValue] = React.useState('');
 
   React.useEffect(() => {
     fetch('https://reqres.in/api/users')
@@ -21,9 +22,18 @@ function App() {
     }).finally(() => setLoading(false));
   }, [])
 
+  const onChangeSearchValue = (event) => {
+    setSearchValue(event.target.value)
+  }
+
   return (
     <div className="App">
-      <Users items={users} isLoading={isLoading}/>
+      <Users
+        searchValue={searchValue}
+        onChangeSearchValue ={onChangeSearchValue}
+        items={users}
+        isLoading={isLoading}
+      />
       {/* <Success /> */}
     </div>
   );

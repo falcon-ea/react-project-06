@@ -7,6 +7,8 @@
     <list default="true" id="52da6646-193e-4c2a-b686-22dd7c1c0d04" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Success.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,11 @@
       <workItem from="1663583994318" duration="961000" />
       <workItem from="1663585312813" duration="2118000" />
       <workItem from="1663612288748" duration="5628000" />
-      <workItem from="1663653358970" duration="3289000" />
+      <workItem from="1663653358970" duration="3684000" />
+      <workItem from="1663677103764" duration="6421000" />
+      <workItem from="1663829677757" duration="2029000" />
+      <workItem from="1663862673802" duration="49000" />
+      <workItem from="1664435075662" duration="6666000" />
     </task>
     <servers />
   </component>

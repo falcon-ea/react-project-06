@@ -30,12 +30,12 @@ function App() {
     const price = value / ratesRef.current[fromCurrency]
     const result = price * ratesRef.current[toCurrency]
     setFromPrice(value)
-    setToPrice(result.toFixed(3))
+    setToPrice(result.toFixed(2))
   }
 
   const onChangeToPrice = (value) => {
     const result = (ratesRef.current[fromCurrency] / ratesRef.current[toCurrency]) * value
-    setFromPrice(result.toFixed(3))
+    setFromPrice(result.toFixed(2))
     setToPrice(value)
   }
 
@@ -61,6 +61,7 @@ function App() {
         onChangeCurrency={setToCurrency}
         onChangeValue={onChangeToPrice}
       />
+      <p>Source: <a href="https://cur.su/pages/api" target='_blanck'>https://cur.su/pages/api</a></p>
     </div>
   );
 }
